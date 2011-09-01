@@ -95,7 +95,6 @@ h1 span {
 #main ul li {
   background: transparent url(../images/icon-clock.png) no-repeat 10px center;
   color: #fff;
-  font-size: 18px;
   padding-left: 50px;
   padding-bottom: 10px;
   padding-top: 10px;
@@ -103,13 +102,13 @@ h1 span {
 
 #main ul li.place {
   background-image: url(../images/icon-marker.png);
-  border-top: 1px solid #555;
+  border-top: 1px dotted #666;
 }
 
-#main ul li em {
+#main ul li strong {
   display: block;
-  font-size: 14px;
-  font-style: normal;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 h2 {
