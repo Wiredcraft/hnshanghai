@@ -135,6 +135,11 @@ h2 {
 
 #footer {
   background: #eee;
+  color: #aaa;
   clear: both;
   padding: 20px;
+}
+
+#footer a {
+  color: #aaa; 
 }
