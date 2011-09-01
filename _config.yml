@@ -1,0 +1,5 @@
+---
+exclude: ['README.markdown']
+permalink: pretty
+pygments: true
+safe: false

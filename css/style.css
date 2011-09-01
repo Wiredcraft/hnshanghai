@@ -1,0 +1,140 @@
+body {
+  color: #333;
+  font-family: Verdana, sans-serif;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+a {
+  color: #ff6600;
+}
+a:hover {
+  color: #ff6600;
+  text-decoration: none;
+}
+
+h1,
+h2 {
+  font-family: 'Varela Round', Verdana, sans-serif;
+}
+
+h1 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: normal;
+  margin: 100px 0 50px;
+}
+
+h1 span {
+  color: #aa4400;
+}
+
+.cn h1 span {
+  font-size: 20px;
+}
+
+h2 {
+  color: #ff6600;
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 15px;
+}
+
+.content {
+  clear: both;
+  margin: 0 auto;
+  text-align: left;
+  width: 780px;
+}
+
+.en {
+  float: left;
+  width: 380px;
+}
+
+.cn {
+  float: right;
+  width: 380px;
+}
+
+#main ul li span {
+  display: none;
+}
+
+#header ul {
+  margin: 0;
+}
+
+#header ul li {
+  display: inline;
+  padding-right: 5px;
+}
+
+#header ul a {
+  background: #aa4400;
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  color: #ff6600;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+#header ul a:hover {
+  background: #fff;
+  text-decoration: none;
+}
+
+#header {
+  background: #ff6600 url(../images/maneki.png) no-repeat center bottom;
+  border-top: 3px solid #aa4400;
+  height: 210px;
+}
+
+#header .cn {
+  padding-left: 160px;
+  width: 220px;
+}
+
+/* Content */
+
+#main {
+  padding-top: 30px;
+}
+
+#main ul {
+  background: #333;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+#main ul li {
+  background: transparent url(../images/icon-clock.png) no-repeat 10px center;
+  color: #fff;
+  padding-left: 50px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+#main ul li.place {
+  background-image: url(../images/icon-marker.png);
+  border-top: 1px dotted #666;
+}
+
+#main ul li strong {
+  display: block;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+/* Footer */
+
+#footer {
+  background: #eee;
+  clear: both;
+  padding: 20px;
+}
