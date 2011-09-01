@@ -1,4 +1,2 @@
-Sitemap: http://hunvreus.github.com/sitemap.xml
-
 User-agent: *
 Disallow: /images/
