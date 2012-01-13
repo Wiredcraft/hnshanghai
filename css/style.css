@@ -6,6 +6,11 @@ body {
 
 p {
   margin-bottom: 20px;
+.content {
+  clear: both;
+  margin: 0 auto;
+  text-align: left;
+  width: 780px;
 }
 
 a {
@@ -91,6 +96,7 @@ h2 {
   background: #ff6600 url(../images/maneki.png) no-repeat center bottom;
   border-top: 3px solid #aa4400;
   height: 210px;
+/*  text-align:center;*/
 }
 
 #header .cn {
@@ -98,7 +104,15 @@ h2 {
   width: 220px;
 }
 
-/* Content */
+.en {
+  float: left;
+  width: 380px;
+}
+
+.cn {
+  float: right;
+  width: 380px;
+}
 
 #main {
   padding-top: 30px;
@@ -131,15 +145,21 @@ h2 {
   font-weight: normal;
 }
 
-/* Footer */
-
-#footer {
-  background: #eee;
-  color: #aaa;
-  clear: both;
-  padding: 20px;
+h2 {
+  color: #ff6600;
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 15px;
 }
 
-#footer a {
-  color: #aaa; 
+p {
+  margin-bottom: 20px;
+}
+
+a {
+  color: #ff6600;
+}
+a:hover {
+  color: #ff6600;
+  text-decoration: none;
 }
