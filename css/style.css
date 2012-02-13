@@ -95,8 +95,14 @@ h2 {
   text-decoration: none;
 }
 
-#footer .button {
+#footer {
+  background: #eee;
+  padding: 10px 0;
+}
+
+#main .button {
   background: #ff6600;
+  border: 0;
   border-radius: 20px;
   -moz-border-radius: 20px;
   -webkit-border-radius: 20px;
@@ -106,7 +112,7 @@ h2 {
   text-decoration: none;
   margin: 5px 0px;
 }
-#footer .button:hover {
+#main .button:hover {
   background: #aa4400;
   text-decoration: none;
   color: #ffffff;
@@ -136,6 +142,7 @@ input {
 }
 
 input:focus {
+  border-color: #FF6600;
   box-shadow: 0 0 5px rgba(255, 102, 0, 1);
   -webkit-box-shadow: 0 0 5px rgba(255, 102, 0, 1);
   -moz-box-shadow: 0 0 5px rgba(255, 102, 0, 1);
