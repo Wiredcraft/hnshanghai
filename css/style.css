@@ -100,7 +100,8 @@ h2 {
   border-radius: 20px;
   -moz-border-radius: 20px;
   -webkit-border-radius: 20px;
-  color: #aa4400;
+  color: #ffffff;
+  cursor: pointer;
   padding: 5px 10px;
   text-decoration: none;
   margin: 5px 0px;
@@ -108,7 +109,7 @@ h2 {
 #footer .button:hover {
   background: #aa4400;
   text-decoration: none;
-  color: #ff6600;
+  color: #ffffff;
   padding: 5px 10px;
   text-decoration: none;
 }
@@ -122,13 +123,22 @@ h2 {
   text-decoration: none;
 }
 
-.email {
+input {
   border: 1px solid #aaa;
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	padding-left: 5px;
-	margin: 0px 0px 5px 0px;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  margin: 0px 0px 5px;
+  outline:none;transition: all 0.25s ease-in-out
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  padding: 7px 5px;
+}
+
+input:focus {
+  box-shadow: 0 0 5px rgba(255, 102, 0, 1);
+  -webkit-box-shadow: 0 0 5px rgba(255, 102, 0, 1);
+  -moz-box-shadow: 0 0 5px rgba(255, 102, 0, 1);
 }
 
 /*
