@@ -97,16 +97,11 @@ h2 {
 
 #footer {
   clear: both;
-  padding: 20px 0 0;
-}
-
-#footer .content {
-  background: #eee;
-  color: #aaa;
   padding: 20px 0;
+  color: #aaa;
 }
 
-#footer .content a {
+#footer a {
   color: #aaa;
 }
 
