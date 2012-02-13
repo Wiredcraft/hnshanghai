@@ -18,6 +18,7 @@ p {
 a {
   color: #ff6600;
 }
+
 a:hover {
   color: #ff6600;
   text-decoration: none;
@@ -93,6 +94,72 @@ h2 {
   background: #fff;
   text-decoration: none;
 }
+
+#footer .button {
+  background: #ff6600;
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  color: #aa4400;
+  padding: 5px 10px;
+  text-decoration: none;
+  margin: 5px 0px;
+}
+#footer .button:hover {
+  background: #aa4400;
+  text-decoration: none;
+  color: #ff6600;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+.button {
+  color: #ff6600;
+}
+
+.button:hover {
+  color: #ff6600;
+  text-decoration: none;
+}
+
+.email {
+  border: 1px solid #aaa;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding-left: 5px;
+	margin: 0px 0px 5px 0px;
+}
+
+/*
+#main ul {
+  background: #333;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+#main ul li {
+  background: transparent url(../images/icon-clock.png) no-repeat 10px center;
+  color: #fff;
+  padding-left: 50px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+#main ul li.place {
+  background-image: url(../images/icon-marker.png);
+  border-top: 1px dotted #666;
+}
+
+#main ul li strong {
+  display: block;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+*/
 
 #header {
   background: #ff6600 url(../images/maneki.png) no-repeat center bottom;
