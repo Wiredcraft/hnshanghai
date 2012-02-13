@@ -96,8 +96,18 @@ h2 {
 }
 
 #footer {
+  clear: both;
+  padding: 20px 0 0;
+}
+
+#footer .content {
   background: #eee;
-  padding: 10px 0;
+  color: #aaa;
+  padding: 20px 0;
+}
+
+#footer .content a {
+  color: #aaa;
 }
 
 #main .button {
