@@ -254,3 +254,12 @@ a:hover {
   color: #ff6600;
   text-decoration: none;
 }
+
+/* holiday option */
+.details.content small {
+  display: block;
+  font-weight: bold;
+}
+.details.content .en small {
+  font-size: 11px;
+}
