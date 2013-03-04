@@ -263,3 +263,7 @@ a:hover {
 .details.content .en small {
   font-size: 11px;
 }
+
+#mce-EMAIL {
+  width: 100%;
+}
