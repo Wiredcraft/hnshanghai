@@ -140,7 +140,8 @@ input {
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
   margin: 0px 0px 5px;
-  outline:none;transition: all 0.25s ease-in-out
+  outline:none;
+  transition: all 0.25s ease-in-out;
   -webkit-transition: all 0.25s ease-in-out;
   -moz-transition: all 0.25s ease-in-out;
   padding: 7px 5px;
@@ -262,4 +263,8 @@ a:hover {
 }
 .details.content .en small {
   font-size: 11px;
+}
+
+#mce-EMAIL {
+  width: 100%;
 }
