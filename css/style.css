@@ -256,10 +256,6 @@ a:hover {
 }
 
 /* holiday option */
-.details.content small {
-  display: block;
-  font-weight: bold;
-}
-.details.content .en small {
+.en .details li.date {
   font-size: 11px;
 }
